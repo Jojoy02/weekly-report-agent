@@ -1,0 +1,6 @@
+[
+  {"id":"F-005","condition":"关键日期缺失","expected_action":"禁止推测，标记待确认"},
+  {"id":"F-006","condition":"状态冲突","expected_action":"阻断自动覆盖"},
+  {"id":"F-007","condition":"Reference 加载失败","expected_action":"关闭依赖该 Reference 的自动判断"},
+  {"id":"F-011","condition":"写入失败","expected_action":"保留确认稿，不重新生成"}
+]

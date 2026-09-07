@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "status": "active",
+  "rules": [
+    {
+      "rule_id": "WR-001",
+      "name": "no_fact_invention",
+      "status": "active",
+      "confidence": 1.0,
+      "description": "不得生成来源和可信历史记录中不存在的事实"
+    },
+    {
+      "rule_id": "WR-002",
+      "name": "explicit_commit",
+      "status": "active",
+      "confidence": 1.0,
+      "description": "只有明确写入意图才能执行 Commit"
+    }
+  ]
+}
